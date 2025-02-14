@@ -5,10 +5,6 @@ import os
 
 env_vars = dotenv_values(".env")
 
-
-print(f"EMAIL: {env_vars.get('EMAIL')}")
-print(f"SENHA: {env_vars.get('SENHA')}")
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
